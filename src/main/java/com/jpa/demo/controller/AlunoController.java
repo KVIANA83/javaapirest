@@ -3,6 +3,7 @@ package com.jpa.demo.controller;
 import com.jpa.demo.repository.AlunoRepository;
 import com.jpa.demo.dto.AlunoRecord;
 import com.jpa.demo.model.Aluno;
+import lombok.AllArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.beans.factory.annotation.Autowired;
